@@ -1,0 +1,13 @@
+{
+  "extends": ["development"],
+  "hints": {
+    "meta-viewport": "off",
+    "button-type": "off",
+    "compat-api/html": [
+      "default",
+      {
+        "ignore": ["content"]
+      }
+    ]
+  }
+}

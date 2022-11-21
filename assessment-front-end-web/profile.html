@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" -------="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <nav>
+      <ol>
+        <li class="crumb"><a href="./home.html">Home</a></li>
+        <li class="crumb"><a href="./profile.html">Profile</a></li>
+        <li class="crumb"><a href="./about.html">About</a></li>
+        <li class="crumb"><a href="./blog.html">Blog</a></li>
+      </ol>
+    </nav>
+    <br />
+    <h1>Newton's Profile Page</h1>
+    <p>One Life! Embrace it with Serenity, Courage and Wisdom !</p>
+    <p>Click to reveal my favorites:</p>
+    <button id="color" class="btnFav">My favorite Color</button>
+    <button id="place" class="btnFav">My favorite Place</button>
+    <button id="ritual" class="btnFav">My favorite Ritual</button>
+
+    <section class="profileSection">
+      <h3>Career Goals</h3>
+      <p>My current career goal is to be proficient in coding.</p>
+    </section>
+    <section class="profileSection">
+      <h3>Skills</h3>
+      <ul>
+        <li>Analytics</li>
+        <li>Research</li>
+        <li>Teaching</li>
+      </ul>
+    </section>
+    <section class="profileSection">
+      <h3>Interests</h3>
+      <ul>
+        <li>Movies</li>
+        <li>Food</li>
+        <li>Plants</li>
+      </ul>
+    </section>
+
+    <form>
+      <h4>Iam planning my next vacation! Where will you like to hangout?</h4>
+      <section>
+        <p>Choose your favorite holiday destination.</p>
+        <select name="holidayDestination" id="holiday">
+          <option value="default">Choose One...</option>
+          <option value="hawai">Hawai</option>
+          <option value="florida">Florida</option>
+          <option value="india">India</option>
+          <option value="sandiego">San Diego</option>
+        </select>
+      </section>
+      <button>Submit</button>
+    </form>
+    <br />
+    <br />
+    <a href="./home.html"><< Back </a>
+
+    <script src="./profile.js"></script>
+  </body>
+</html>
