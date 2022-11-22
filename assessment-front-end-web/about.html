@@ -40,17 +40,35 @@
 		<h3>Restaurants</h3>
 		<p> Plano dinning scene is varied as its culture.Tease your taste buds with cusinie from all around the globe.Click on the button to get a random restaurant recommendation.</p>
 
-	<form id = "restro">
-		<h4> Let's find you a place to relish your meals in Plano</h4>
-			
-			<input type="text" />
-			<br>
-				Click the button:
-		<button> Find restaurant</button><button id="restro" class="btnFav">restaurant </button>
-	  </form>
-
-
+	 <!--
+		on-click button looping over array (with styling and js on-site for simplicity)
+	 -->
+		<h4> Let's find you a place to relish your meals in Plano today ! </h4>
+	 	Click the button:
+		<style>
+		button{background-color:greenyellow;color:green;font-weight:bold;border:none;height: 50px;width:100px;
+		}
+		</style>
+		<button onclick ="GFG_Fun()">Restaurant</button>
+		<p id = "xxx" style =
+		 "font-size: 25px; font-weight: bold; color:green;">
 		</p>
+		<script>
+		var down = document.getElementById("xxx");
+		var myArray = [
+		  "Kenny's Burger Joint Plano",
+		  "Covinos Pasta and Pizza",
+		  "Eddies Diner",
+		  "Holy Grail Pub",
+		  "Seasons 52",
+		  "Brasão Brazilian Steakhouse",
+		  "E. B. Latin Bistro",
+		  "Taj Mahal Indian taste",
+		];
+		function GFG_Fun() {
+		  down.innerHTML = myArray[Math.floor(Math.random() * myArray.length)];
+		}
+	</script>
 		<h3>School and Universities</h3>
 			<h4>Colleges</h4>
 		<p>

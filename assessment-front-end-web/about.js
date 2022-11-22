@@ -20,6 +20,8 @@ form.addEventListener("submit", handleSubmit);
 image.addEventListener("mouseover", handleMouseOver);
 
 //4. random array restuarnat picker
+/* // added to html file
+var down = document.getElementById("xxx");
 var myArray = [
   "Kenny's Burger Joint Plano",
   "Covinos Pasta and Pizza",
@@ -30,14 +32,7 @@ var myArray = [
   "E. B. Latin Bistro",
   "Taj Mahal Indian taste",
 ];
-function restro() {
-  var rand = myArray[~~(Math.random() * myArray.length)];
-  console.log(rand);
+function GFG_Fun() {
+  down.innerHTML = myArray[Math.floor(Math.random() * myArray.length)];
 }
-
-let form = document.querySelector("#restro");
-//form.addEventListener("click", randrestro);
-form.addEventListener("click", restro);
-//resrto button
-let restroBtn = document.querySelector("#restro");
-restroBtn.addEventListener("click", restro);
+*/
